@@ -30,6 +30,7 @@
 .info-section h2{margin:0 0 1.6rem;font:2.2rem VT323;color:#3252c4}
 .info-section p,.info-entry p,.info-list{max-width:70ch;font-size:1.12rem;line-height:1.6}
 .info-section p{margin:0}
+.info-section p+p{margin-top:1rem}
 .info-entry{max-width:70ch;padding:1.35rem 0;border-top:1px solid #b5d0c4}.info-entry:first-of-type{border-top:0;padding-top:0}
 .info-entry h3{margin:0 0 .5rem;font-size:1.3rem;line-height:1.3}.info-entry p{margin:0}
 .info-list{list-style:none;margin:0;padding:0}.info-list li{padding:1rem 0;border-top:1px solid #b5d0c4}.info-list li:first-child{border-top:0;padding-top:0}

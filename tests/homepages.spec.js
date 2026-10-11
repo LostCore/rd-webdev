@@ -9,6 +9,7 @@ test('HTML source starts with the contact banner', async ({ request }) => {
     expect(source).toMatch(/^<!doctype html>\n<!--\n  ▄▄▄▄▄   ▄▄/);
     expect(source).toContain('               ▄█▀\n  Do you have work for me?');
     expect(source).toContain('Do you have work for me? Contact me at riccardodangelo@outlook.com');
+    expect(source).toContain('<meta name="robots" content="noindex">');
     expect(source.indexOf('Do you have work for me?')).toBeLessThan(source.indexOf('<html'));
   }
 });

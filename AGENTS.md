@@ -17,7 +17,7 @@ Light Terminal è la direzione di lavoro corrente su `/`, `/terminal/`, `/about/
 
 - Leggi `PRODUCT.md` prima di cambiare contenuti o struttura del sito. Non inventare esperienze, clienti, risultati, progetti o recapiti.
 - Scrivi in inglese tutti i contenuti pubblici del sito, inclusi metadati, etichette accessibili e testi delle pagine comuni.
-- Usa `docs/content/` come spazio di lavoro editoriale, con un file Markdown per pagina. L'autore scrive nella sezione italiana: quando chiede di applicare i testi, traducili in inglese e aggiorna sia la bozza inglese sia il sito. I file non sono pubblicati automaticamente. Le note editoriali non vanno pubblicate.
+- Usa `docs/content/` come spazio di lavoro editoriale, con un file Markdown in inglese per pagina. Quando l'autore chiede di applicare i testi, aggiorna il sito dai file Markdown. I file non sono pubblicati automaticamente. Le note editoriali non vanno pubblicate.
 - Tratta ogni proposta in `docs/design/` come esplorazione finché non viene scelta. Tieni separati i fatti di prodotto dalle decisioni visive.
 - Mantieni Eleventy e il sito statico semplici: aggiungi dipendenze o JavaScript client solo quando servono a una funzione richiesta.
 - Cura semantica HTML, navigazione da tastiera, contrasto e versione mobile anche nelle proposte rétro.

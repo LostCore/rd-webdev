@@ -1,6 +1,6 @@
 # Site copy workspace
 
-Usa un file Markdown per pagina per scrivere i tuoi testi in italiano:
+Use one Markdown file per page to write the site's English copy:
 
 | Page | Draft | Live route |
 | --- | --- | --- |
@@ -9,10 +9,10 @@ Usa un file Markdown per pagina per scrivere i tuoi testi in italiano:
 | CV | [cv.md](cv.md) | `/cv/` |
 | Contact | [contact.md](contact.md) | `/contatti/` |
 
-In ciascun file trovi in cima **I tuoi testi in italiano**: scrivi sotto i sottotitoli o cambiali liberamente. Più sotto resta la bozza inglese attualmente sul sito, utile come riferimento. `## Editorial notes` contiene domande di lavoro, non testi da pubblicare.
+Edit the English copy directly under each page heading. `## Editorial notes` holds working questions and is not published.
 
-Questi file sono bozze fuori dalla cartella `src/` di Eleventy: modificarli non cambia automaticamente il sito. Quando vuoi pubblicare una pagina, chiedimi di applicarla: tradurrò i tuoi testi in inglese, aggiornerò la bozza inglese e il template o `src/_data/profile.json`, verificherò i fatti con `PRODUCT.md` e le reference ed eseguirò build e test visivi. Terrò allineate le bozze alle modifiche successive.
+These files sit outside Eleventy's `src/` directory, so editing them does not change the site automatically. Ask me to apply a page when it is ready: I will update its template or `src/_data/profile.json`, check factual claims against `PRODUCT.md` and the references, then run the build and relevant visual tests. I will keep the drafts aligned with later site changes.
 
-Per lavorare su target e testi, chiedi «Usa `content_advisor` per aiutarmi a definire il target» oppure «Usa `content_advisor` per scrivere la pagina About». L'agente di progetto è in [`.codex/agents/content_advisor.toml`](../../.codex/agents/content_advisor.toml) e usa GPT-6 Astra. Ti farà domande in italiano prima di fissare una direzione.
+For help with positioning or copy, ask to use `content_advisor`. The project agent is in [`.codex/agents/content_advisor.toml`](../../.codex/agents/content_advisor.toml) and uses GPT-6 Astra. You can discuss the content in Italian; it will write the page copy in English.
 
-Non aggiungere recapiti privati del CV qui finché non decidi di pubblicarli. Le decisioni di prodotto vanno in `PRODUCT.md`, le fonti in `docs/references/` e le scelte visive in `docs/design/`.
+Do not add private contact details from the CV until you decide to publish them. Product decisions belong in `PRODUCT.md`, sources in `docs/references/`, and visual choices in `docs/design/`.

@@ -1,19 +1,5 @@
 # Contact
 
-## I tuoi testi in italiano
-
-Scrivi qui liberamente. Quando mi chiederai di applicarli, li tradurrò in inglese e aggiornerò il sito. La bozza inglese attuale è sotto.
-
-### Invito al contatto
-
-<!-- Scrivi qui come vuoi invitare le persone a contattarti e per quali opportunità. -->
-
-### Canali da mostrare
-
-<!-- Indica qui quali recapiti vuoi rendere visibili nella pagina. -->
-
----
-
 ## Introduction
 
 Connect with me on LinkedIn. Other public contact options are still being decided.

@@ -1,25 +1,5 @@
 # Home
 
-## I tuoi testi in italiano
-
-Scrivi qui liberamente. Quando mi chiederai di applicarli, li tradurrò in inglese e aggiornerò il sito. La bozza inglese attuale è sotto.
-
-### Presentazione
-
-Sono un Full Stack Web Developer e Systems Engineer. Oggi lavoro con un approccio AI-first basato sulle conoscenze tecniche che ho già maturato. Sono anche mentore e coach per professionisti IT.
-
-<!-- Rivedi liberamente il tono e la lunghezza di questa prima bozza. -->
-
-### Progetti: Allenaria
-
-<!-- Scrivi qui come vuoi presentare Allenaria. -->
-
-### Progetti: RD Personal Training
-
-<!-- Scrivi qui come vuoi presentare la tua attività. -->
-
----
-
 ## Introduction
 
 **Name:** Riccardo D'Angelo

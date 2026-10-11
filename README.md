@@ -7,7 +7,7 @@ I developed the site with an AI-first workflow. It is built with [Eleventy (11ty
 ## Project structure
 
 - `src/` contains the Eleventy templates, shared data, and styles.
-- `docs/content/` holds page-by-page editorial drafts. Italian source text is translated into English before it is applied to the site.
+- `docs/content/` holds the English copy for each page. Changes are applied to the site templates on request.
 - `docs/design/` contains design exploration and saved alternatives. Light Terminal is the current direction; 90s README and 90 WEB remain available as backups.
 - `docs/references/` contains source material for content and design. The private CV is excluded from Git.
 - `PRODUCT.md` records product context and confirmed facts; `AGENTS.md` contains project instructions for coding agents.

@@ -1,23 +1,5 @@
 # CV
 
-## I tuoi testi in italiano
-
-Scrivi qui liberamente. Quando mi chiederai di applicarli, li tradurrò in inglese e aggiornerò il sito. La bozza inglese attuale è sotto.
-
-### Profilo
-
-<!-- Scrivi qui un breve profilo professionale. -->
-
-### Esperienze
-
-<!-- Scrivi qui ruoli, periodi, responsabilità e risultati che vuoi pubblicare. -->
-
-### Competenze, formazione e lingue
-
-<!-- Scrivi qui le informazioni che vuoi includere. -->
-
----
-
 ## Introduction
 
 My work spans web development, systems engineering, training and well-being. This web page draws on my 2026 CV.

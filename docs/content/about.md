@@ -1,30 +1,8 @@
 # About
 
-## I tuoi testi in italiano
-
-Scrivi qui liberamente. Quando mi chiederai di applicarli, li tradurrò in inglese e aggiornerò il sito. La bozza inglese attuale è sotto.
-
-### Presentazione
-
-Come molti bambini nerd cresciuti negli anni '90, ho iniziato a scrivere codice con il sogno di creare videogames. Iniziai con tool come RPG Maker 95 e GameMaker, ma ben presto iniziai a voler personalizzare il più possibile quello che creavo e così iniziai a utilizzare C++, Ruby, poi C# (i tempi delle mod di Ultima Online con RunUo...). Approdai allo sviluppo web perché volevo fare i siti web dei miei progetti; iniziai con del semplice HTML, passai per l'installazione e le mod in php per CMS e forum, per arrivare a scriptare in PHP il mio primo CMS completamente da zero; col tempo iniziai a guadagnare i primi soldi proprio con lo sviluppo web e da quel momento è diventata la mia strada professionale principale e mi sono formato come uno sviluppatore full stack completo, dalla gestione del server alla realizzazione dell'UI.
-
-Oggi uso tutto il know-how acquisito in un approccio AI-First allo sviluppo che mi rende estremamente produttivo. Sono specializzato nell'integrazione agentica dei processi aziendali e di devops.
-
-### Mentoring e coaching IT
-
-Affianco professionisti dell'ambito IT come mentore e coach.
-
-<!-- Aggiungi qui a chi ti rivolgi, come lavori e cosa vuoi raccontare di questa attività. -->
-
-### Oltre il software
-
-<!-- Scrivi qui ciò che vuoi raccontare del tuo percorso personale e professionale. -->
-
----
-
 ## Introduction
 
-I'm Riccardo D'Angelo, a Full Stack Web Developer and Systems Engineer.
+Hello, I'm Riccardo, a Full Stack Web Developer, Systems Engineer, AI Engineer, and Coach.
 
 ## From games to the web
 
@@ -37,9 +15,11 @@ Over time, I started earning my first money through web development, and from th
 
 Today, I combine everything I've learned over the years with an AI-first approach to software development, allowing me to work with a high level of speed and productivity. I specialize in agentic integration across business processes, software development, and DevOps.
 
-## Beyond software
+## Mentoring and coaching
 
-Alongside my technical work, I mentor and coach IT professionals. I also teach self-defense and work as a personal trainer. My background in psychology and coaching shapes how I collaborate with and support people.
+Over the years, I also realized that one of my greatest passions is helping people. So I decided to build on my experience as a developer by earning a degree in psychology and training as a coach.
+
+Today, I help IT professionals achieve their career and productivity goals, while also working with companies and managers to build healthy, productive work environments and teams.
 
 ## Editorial notes
 

@@ -19,7 +19,7 @@ I due pubblici hanno pari priorità. La homepage deve favorire il percorso prese
 
 ## Product Purpose
 
-Presentare Riccardo D'Angelo come Full Stack Web Developer, Systems Engineer e AI Engineer. Il sito dovrà aiutare entrambi i pubblici a capire chi è, di cosa si occupa e come approfondire o mettersi in contatto attraverso i canali che sceglierà di pubblicare.
+Presentare Riccardo D'Angelo anzitutto come Full Stack Web Developer e Systems Engineer. Oggi adotta un approccio AI-first fondato sulle conoscenze tecniche pregresse; è anche mentore e coach per professionisti IT. Il sito dovrà aiutare entrambi i pubblici a capire chi è, di cosa si occupa e come approfondire o mettersi in contatto attraverso i canali che sceglierà di pubblicare.
 
 ## Operating Context
 
@@ -48,7 +48,7 @@ Il [CV 2026 in inglese](docs/references/CV.md) è la fonte fornita dall'autore. 
 - Il nome Riccardo D'Angelo e il profilo Full Stack Web Developer / Systems Engineer.
 - L'esperienza come Tech Lead e Systems Engineer presso Exe Digital / WAGA da aprile 2014, descritta come in corso nel CV 2026.
 - Competenze dichiarate in sviluppo backend e frontend, infrastruttura, cloud e orchestrazione di sistemi AI multi-agente.
-- Formazione in psicologia clinica, attività di coaching e mentoring; se e come raccontarle nel sito resta da decidere.
+- Formazione in psicologia clinica e attività di coaching e mentoring. L'autore ha confermato di voler far emergere il proprio ruolo di mentore e coach per professionisti IT.
 - Italiano come lingua madre e inglese avanzato.
 
 L'autore ha confermato due [progetti per la homepage](docs/references/progetti.md):
@@ -56,11 +56,13 @@ L'autore ha confermato due [progetti per la homepage](docs/references/progetti.m
 - **Allenaria:** SaaS per personal trainer indipendenti. La reference fornita dall'autore indica FastAPI, Vite, PostgreSQL e Stripe.
 - **RD Personal Training:** attività personale di Riccardo come insegnante di difesa personale e personal trainer. Riccardo ha realizzato il [sito pubblico](https://difesapersonalemagenta.com/), che presenta anche percorsi di Krav Maga e coaching mentale a Magenta. Nella homepage la sua attività di insegnamento e allenamento deve avere più evidenza del lavoro di sviluppo del sito.
 
+L'autore ha precisato che Full Stack Web Developer e Systems Engineer sono i due pilastri del profilo. L'approccio AI-first descrive il modo in cui lavora oggi, sostenuto dalle competenze già maturate; mentoring e coaching rivolti a professionisti IT fanno parte del profilo da comunicare. La formulazione pubblica e il peso di questi elementi nelle singole pagine restano da definire.
+
 L'autore ha fornito il profilo [GitHub](https://github.com/LostCore) per il menu del sito e il profilo [LinkedIn](https://www.linkedin.com/in/rdangelo86) per la pagina Contatti. Ha autorizzato l'email `riccardodangelo@outlook.com` nel messaggio ASCII in cima al sorgente HTML, con la frase esatta «Do you have work for me? Contact me at riccardodangelo@outlook.com». La sua presenza visibile nella pagina Contact resta da decidere. Il CV contiene altri recapiti personali, che non sono autorizzati alla pubblicazione. Non sono stati forniti casi studio, risultati misurabili o immagini personali separati dal CV. Non creare prove fittizie per riempire il sito.
 
 ## Product Principles
 
-- Rendere comprensibili le tre aree professionali senza implicare esperienze o risultati non documentati.
+- Rendere comprensibili i due pilastri professionali, l'approccio AI-first e il mentoring/coaching IT senza implicare esperienze o risultati non documentati.
 - Dare a clienti e recruiter percorsi di lettura ugualmente chiari.
 - Far dipendere le affermazioni professionali da contenuti reali forniti dall'autore.
 - Tenere il prodotto semplice e facilmente aggiornabile durante l'esplorazione visiva.

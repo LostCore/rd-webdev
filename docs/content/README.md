@@ -1,6 +1,6 @@
 # Site copy workspace
 
-Use one Markdown file per page to revise the English text together:
+Usa un file Markdown per pagina per scrivere i tuoi testi in italiano:
 
 | Page | Draft | Live route |
 | --- | --- | --- |
@@ -9,8 +9,10 @@ Use one Markdown file per page to revise the English text together:
 | CV | [cv.md](cv.md) | `/cv/` |
 | Contact | [contact.md](contact.md) | `/contatti/` |
 
-These files start from the copy currently on the site. Edit them freely or ask for help with a specific section. `## Editorial notes` contains questions for us, not text to publish.
+In ciascun file trovi in cima **I tuoi testi in italiano**: scrivi sotto i sottotitoli o cambiali liberamente. Più sotto resta la bozza inglese attualmente sul sito, utile come riferimento. `## Editorial notes` contiene domande di lavoro, non testi da pubblicare.
 
-The Markdown files are working drafts and are outside Eleventy's `src/` directory, so editing them does not change the website automatically. When a page is ready, ask me to apply it: I will update the relevant template or `src/_data/profile.json`, check the wording against `PRODUCT.md` and the references, and run the build and visual tests. I will keep these drafts aligned with subsequent site copy changes.
+Questi file sono bozze fuori dalla cartella `src/` di Eleventy: modificarli non cambia automaticamente il sito. Quando vuoi pubblicare una pagina, chiedimi di applicarla: tradurrò i tuoi testi in inglese, aggiornerò la bozza inglese e il template o `src/_data/profile.json`, verificherò i fatti con `PRODUCT.md` e le reference ed eseguirò build e test visivi. Terrò allineate le bozze alle modifiche successive.
 
-Do not add private contact details from the CV here until you decide to publish them. Product decisions belong in `PRODUCT.md`; evidence and source documents belong in `docs/references/`; visual decisions belong in `docs/design/`.
+Per lavorare su target e testi, chiedi «Usa `content_advisor` per aiutarmi a definire il target» oppure «Usa `content_advisor` per scrivere la pagina About». L'agente di progetto è in [`.codex/agents/content_advisor.toml`](../../.codex/agents/content_advisor.toml) e usa GPT-6 Astra. Ti farà domande in italiano prima di fissare una direzione.
+
+Non aggiungere recapiti privati del CV qui finché non decidi di pubblicarli. Le decisioni di prodotto vanno in `PRODUCT.md`, le fonti in `docs/references/` e le scelte visive in `docs/design/`.

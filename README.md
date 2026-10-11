@@ -1,18 +1,27 @@
-# RD Webdev
+# riccardodangelo.com
 
-Sito personale con [Eleventy (11ty)](https://www.11ty.dev/).
+This is the project for my personal website, [riccardodangelo.com](https://www.riccardodangelo.com). It presents my work as a Full Stack Web Developer and Systems Engineer, my AI-first approach grounded in prior technical experience, and my mentoring and coaching for IT professionals.
+
+I developed the site with an AI-first workflow. It is built with [Eleventy (11ty)](https://www.11ty.dev/) and hosted on [Netlify](https://www.netlify.com).
+
+## Project structure
+
+- `src/` contains the Eleventy templates, shared data, and styles.
+- `docs/content/` holds page-by-page editorial drafts. Italian source text is translated into English before it is applied to the site.
+- `docs/design/` contains design exploration and saved alternatives. Light Terminal is the current direction; 90s README and 90 WEB remain available as backups.
+- `docs/references/` contains source material for content and design. The private CV is excluded from Git.
+- `PRODUCT.md` records product context and confirmed facts; `AGENTS.md` contains project instructions for coding agents.
+
+## My trustworthy skills
+
+- [Ponytail](https://github.com/DietrichGebert/ponytail)
+- [Impeccable](https://github.com/pbakaus/impeccable)
+
+## Development
 
 ```sh
 npm install
 npm run dev
 ```
 
-`npm run build` genera il sito statico in `_site/`.
-
-`npm run test:visual` verifica le tre homepage con Playwright e Chrome a desktop e mobile, confrontandole con le snapshot salvate in `tests/homepages.spec.js-snapshots/`. Dopo una modifica visiva intenzionale: `npm run test:visual -- --update-snapshots`.
-
-Apri `/` per la homepage Light Terminal corrente. About, CV e Contact seguono lo stesso design. Le prove README e Web90 restano navigabili a `/readme/` e `/web90/` e salvate in `docs/design/backups/`; `/designs/` permette di confrontarle.
-
-`PRODUCT.md` raccoglie il contesto di prodotto. Le proposte e i riferimenti sono in `docs/design/` e `docs/references/`; i futuri PRD in `docs/prd/`.
-
-I testi delle pagine si elaborano in [`docs/content/`](docs/content/README.md). Sono bozze Markdown separate dal sito: dopo la revisione si applicano ai template e ai dati in `src/`.
+`npm run build` generates the site in `_site/`. `npm run test:visual` builds it and runs the Playwright checks at desktop and mobile sizes. After an intentional visual change, update the screenshots with `npm run test:visual -- --update-snapshots`.

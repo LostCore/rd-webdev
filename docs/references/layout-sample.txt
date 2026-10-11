@@ -1,0 +1,38 @@
+┌──────────────────────────────────────────────────────────────┐
+│ riccardodangelo.dev                              [EN] [IT]  │
+├──────────────────────────────────────────────────────────────┤
+
+$ whoami
+
+██████╗ ██╗ ██████╗ ██████╗ █████╗ ██████╗ ██████╗  ██████╗
+██╔══██╗██║██╔════╝██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗
+██████╔╝██║██║     ██║     ███████║██████╔╝██║  ██║██║   ██║
+██╔══██╗██║██║     ██║     ██╔══██║██╔══██╗██║  ██║██║   ██║
+██║  ██║██║╚██████╗╚██████╗██║  ██║██║  ██║██████╔╝╚██████╔╝
+╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝
+
+Full Stack Developer / System Engineer
+
+I build maintainable web systems,
+infrastructure and developer tooling.
+
+> currently working with
+  TypeScript · Vue · Node · PHP · Python · Docker · Ansible
+
+[ projects ]  [ experience ]  [ about ]  [ contact ]
+
+────────────────────────────────────────────────────────────────
+
+/projects
+
+01  Allenaria
+    SaaS for independent personal trainers
+    FastAPI · Vite · PostgreSQL · Stripe
+
+02  Project name
+    description...
+
+────────────────────────────────────────────────────────────────
+
+© 2026
+status: █ ONLINE

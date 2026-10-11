@@ -1,0 +1,16 @@
+@font-face{font-family:Atkinson;src:url('/assets/fonts/atkinson-regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:Atkinson;src:url('/assets/fonts/atkinson-bold.ttf') format('truetype');font-weight:700;font-display:swap}
+@font-face{font-family:Silkscreen;src:url('/assets/fonts/silkscreen-bold.ttf') format('truetype');font-weight:700;font-display:swap}
+@font-face{font-family:VT323;src:url('/assets/fonts/vt323.ttf') format('truetype');font-weight:400;font-display:swap}
+:root{font-family:Atkinson,Arial,sans-serif;font-synthesis:none;text-rendering:optimizeLegibility}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-width:320px}
+button,input{font:inherit}
+a{color:inherit;text-underline-offset:.22em}
+a:focus-visible{outline:3px solid #e44b87;outline-offset:4px}
+::selection{background:#4148d7;color:#fff}
+.skip-link{position:absolute;z-index:100;top:-5rem;left:1rem;padding:.7rem 1rem;background:#25243a;color:#fff}
+.skip-link:focus{top:1rem}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}

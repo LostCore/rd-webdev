@@ -1,0 +1,36 @@
+.theme-readme{background:#e9e6dc;color:#25243a}
+.theme-readme ::selection{background:#44e5d2;color:#25243a}
+.readme-page{max-width:1280px;margin:clamp(1rem,3vw,2.5rem) auto;background:#faf9f1;border:2px solid #25243a;box-shadow:0 18px 35px #25243a1b}
+.readme-header{display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:1.15rem clamp(1.5rem,4vw,4rem);border-bottom:2px solid #25243a}
+.readme-logo{display:flex;align-items:center;gap:.15rem;font-family:Silkscreen;font-size:1.65rem;text-decoration:none;letter-spacing:-.04em}
+.logo-dot{color:#4148d7}.logo-label{font:700 .7rem Atkinson;letter-spacing:.13em;margin-left:.75rem;padding:.3rem .45rem;background:#44e5d2}
+.readme-nav{display:flex;flex-wrap:wrap;gap:clamp(.8rem,2vw,2rem)}
+.readme-nav a{font-family:VT323;font-size:1.45rem;text-decoration:none;border-bottom:2px solid transparent}
+.readme-nav a:hover{border-color:#4148d7;color:#4148d7}
+.readme-meta{display:flex;justify-content:space-between;gap:1rem;padding:.7rem clamp(1.5rem,4vw,4rem);background:#dce3df;border-bottom:1px solid #25243a;font:1.05rem VT323;letter-spacing:.04em}
+.readme-hero{padding:clamp(3rem,6vw,6rem) clamp(1.5rem,6vw,6.5rem) clamp(4rem,7vw,7rem)}
+.readme-command{margin:0 0 1.75rem;font:1.65rem VT323}.readme-command span{color:#4148d7}
+.readme-hero h1{max-width:15ch;margin:0;font:700 clamp(2.5rem,6.8vw,5.4rem)/1.12 Silkscreen;letter-spacing:-.04em;text-transform:uppercase}
+.readme-roles{display:flex;flex-wrap:wrap;gap:.55rem;margin:2rem 0 1.8rem}
+.readme-roles span{padding:.3rem .55rem;background:#44e5d2;border:1px solid #25243a;font:1.2rem VT323}
+.readme-roles span:nth-child(2){background:#e9e8ff}.readme-roles span:nth-child(3){background:#ffd0e2}
+.readme-intro{max-width:52ch;margin:0;font-size:clamp(1.2rem,2vw,1.55rem);line-height:1.45}
+.readme-actions{display:flex;align-items:center;flex-wrap:wrap;gap:1.5rem;margin-top:2.6rem}
+.readme-button{display:inline-flex;align-items:center;gap:1.2rem;background:#4148d7;color:#fff;padding:.9rem 1.15rem;border:2px solid #25243a;text-decoration:none;font-weight:700}
+.readme-button:hover{background:#25243a}.readme-text-link{font-weight:700;text-decoration-thickness:2px}
+.readme-projects{border-top:2px solid #25243a;padding:0 clamp(1.5rem,6vw,6.5rem) 4rem}
+.section-heading{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:0 -1px 1rem;padding:2.4rem 0 1rem}
+.section-heading h2{margin:0;font:700 clamp(1.8rem,3vw,2.7rem) Silkscreen;letter-spacing:-.04em}
+.section-heading span{font:1.25rem VT323}
+.readme-project{display:grid;grid-template-columns:5rem minmax(0,1fr);gap:1.5rem;padding:1.7rem 0;border-top:1px solid #25243a}
+.project-number{font:2rem VT323;color:#4148d7}.project-type{margin:0 0 .3rem!important;font:1.15rem VT323;text-transform:uppercase;letter-spacing:.09em}
+.readme-project h3{margin:0;font-size:clamp(1.45rem,2.5vw,2rem)}
+.readme-project p{max-width:62ch;margin:.55rem 0;line-height:1.45}
+.readme-project .project-detail{font-family:VT323;font-size:1.3rem;color:#3c4553}
+.project-link{display:inline-block;margin-top:.4rem;font-weight:700}
+.readme-next{display:flex;align-items:center;flex-wrap:wrap;gap:1rem 2rem;padding:2rem clamp(1.5rem,6vw,6.5rem);background:#d8faf3;border-top:2px solid #25243a}
+.readme-next p{width:100%;margin:0;font:1.1rem VT323;letter-spacing:.1em}
+.readme-next a{font-weight:700}
+.readme-footer{display:flex;justify-content:space-between;gap:1rem;padding:1.25rem clamp(1.5rem,4vw,4rem);border-top:2px solid #25243a;font-size:.9rem}
+@media(max-width:800px){.readme-header{align-items:flex-start;flex-direction:column;gap:.8rem}.readme-hero{padding-top:3rem}}
+@media(max-width:600px){.readme-page{margin:0;border-left:0;border-right:0}.readme-meta{font-size:.9rem}.readme-meta span:last-child{display:none}.readme-hero h1{font-size:clamp(2rem,9vw,3.4rem);line-height:1.2}.readme-project{grid-template-columns:2rem minmax(0,1fr);gap:.7rem}.readme-footer{flex-direction:column}}

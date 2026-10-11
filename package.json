@@ -1,0 +1,13 @@
+{
+  "name": "rd-webdev",
+  "private": true,
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "test:visual": "npm run build && playwright test"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@playwright/test": "^1.64.0"
+  }
+}

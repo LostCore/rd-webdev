@@ -1,0 +1,17 @@
+╔══════════════════════════════════════════════════════════════╗
+║  RD / WEBDEV                                       [●] online ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  > Ciao, sono [NOME]                                          ║
+║    Full Stack Web Developer                                   ║
+║    Systems Engineer                                           ║
+║    AI Engineer                                                ║
+║                                                              ║
+║  [01] Profilo      [02] Lavori      [03] Contatti            ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+Appunti: superficie chiara; testo quasi nero; ciano, blu elettrico
+e rosa acceso come accenti controllati. Griglia semplice, margini
+ampi, un dettaglio ASCII o pixel alla volta. La cornice qui è solo
+un riferimento, non un requisito per il layout mobile.

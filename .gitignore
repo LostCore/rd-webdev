@@ -1,0 +1,5 @@
+node_modules/
+_site/
+docs/references/private/
+test-results/
+playwright-report/

@@ -1,0 +1,22 @@
+{
+  "name": "Riccardo D'Angelo",
+  "roles": ["Full Stack Web Developer", "Systems Engineer", "AI Engineer"],
+  "intro": "I design web applications and cloud services, maintain infrastructure and technical documentation, and work on AI system orchestration.",
+  "projects": [
+    {
+      "id": "allenaria",
+      "name": "Allenaria",
+      "type": "SaaS",
+      "description": "A platform for independent personal trainers.",
+      "detail": "FastAPI · Vite · PostgreSQL · Stripe"
+    },
+    {
+      "id": "rd-personal-training",
+      "name": "RD Personal Training",
+      "type": "Personal practice",
+      "description": "My work as a personal trainer and self-defense instructor in Magenta.",
+      "detail": "I also built the website for this practice.",
+      "url": "https://difesapersonalemagenta.com/"
+    }
+  ]
+}

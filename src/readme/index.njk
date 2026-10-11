@@ -1,0 +1,38 @@
+---
+layout: base.njk
+title: README — Homepage
+theme: readme
+permalink: /readme/index.html
+---
+<div class="readme-page">
+  <header class="readme-header">
+    <a class="readme-logo" href="/readme/">RD<span class="logo-dot">.</span><span class="logo-label">README</span></a>
+    <nav class="readme-nav" aria-label="Main navigation">
+      <a href="/about/">about.txt</a><a href="/cv/">cv.txt</a><a href="#projects">projects/</a><a href="/contatti/">contact.txt</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="readme-meta"><span>FILE: /home/riccardo/README.TXT</span><span>STATUS: ACTIVE</span></div>
+    <section class="readme-hero" aria-labelledby="readme-title">
+      <p class="readme-command"><span aria-hidden="true">$</span> whoami</p>
+      <h1 id="readme-title">Riccardo D'Angelo</h1>
+      <p class="readme-roles">{% for role in profile.roles %}<span>{{ role }}</span>{% endfor %}</p>
+      <p class="readme-intro">{{ profile.intro }}</p>
+      <div class="readme-actions"><a class="readme-button" href="/about/">Read my profile <span aria-hidden="true">↗</span></a><a class="readme-text-link" href="/cv/">View my CV <span aria-hidden="true">→</span></a></div>
+    </section>
+
+    <section id="projects" class="readme-projects" aria-labelledby="readme-projects-title">
+      <div class="section-heading"><h2 id="readme-projects-title">/projects</h2><span>2 ENTRIES</span></div>
+      {% for project in profile.projects %}
+      <article class="readme-project">
+        <span class="project-number">0{{ loop.index }}</span>
+        <div><p class="project-type">{{ project.type }}</p><h3>{{ project.name }}</h3><p>{{ project.description }}</p><p class="project-detail">{{ project.detail }}</p>{% if project.url %}<a class="project-link" href="{{ project.url }}" target="_blank" rel="noopener noreferrer">Visit the website <span class="sr-only">for {{ project.name }} (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>{% endif %}</div>
+      </article>
+      {% endfor %}
+    </section>
+
+    <aside class="readme-next"><p>KEEP READING</p><a href="/about/">Full profile <span aria-hidden="true">→</span></a><a href="/cv/">Experience and skills <span aria-hidden="true">→</span></a></aside>
+  </main>
+  <footer class="readme-footer"><span>© 2026 Riccardo D'Angelo</span><a href="/designs/">Compare the three designs</a></footer>
+</div>

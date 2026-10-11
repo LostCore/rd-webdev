@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: 90s web — Homepage
+theme: web90
+permalink: /web90/index.html
+---
+<div class="web90-page">
+  <header class="web90-header">
+    <a class="web90-logo" href="/web90/">riccardo<span>dangelo</span><b>.web</b></a>
+    <nav class="web90-nav" aria-label="Main navigation"><a href="/about/">About</a><a href="/cv/">CV</a><a href="#projects">Projects</a><a href="/contatti/">Contact</a></nav>
+  </header>
+  <main id="main">
+    <section class="web90-hero" aria-labelledby="web90-title">
+      <div class="web90-title-block"><h1 id="web90-title">Hi, I'm<br><span>Riccardo.</span></h1><p class="web90-tagline">{{ profile.intro }}</p><div class="web90-actions"><a class="web90-primary" href="/about/">Get to know me <span aria-hidden="true">↗</span></a><a class="web90-secondary" href="/cv/">Read my CV <span aria-hidden="true">→</span></a></div></div>
+      <div class="web90-display" aria-hidden="true"><div class="display-top"><span>RD_PROFILE.EXE</span><span>□ ×</span></div><div class="display-inner"><span class="star star-a">✳</span><span class="star star-b">✳</span><span class="web90-monogram">RD</span><span class="display-tag">BUILDING THINGS<br>THAT LAST.</span></div><div class="display-bottom"><span>WEB</span><span>SYS</span><span>AI</span></div></div>
+    </section>
+
+    <section class="web90-roles" aria-label="Professional roles">{% for role in profile.roles %}<span><i aria-hidden="true"></i>{{ role }}</span>{% endfor %}</section>
+
+    <section id="projects" class="web90-projects" aria-labelledby="web90-projects-title"><div class="web90-section-head"><h2 id="web90-projects-title">Projects<span aria-hidden="true">.</span></h2></div><div class="web90-project-list">
+      {% for project in profile.projects %}
+      <article class="web90-project"><div class="web90-project-icon" aria-hidden="true">{% if project.id == 'allenaria' %}A<span>+</span>{% else %}RD<span>↗</span>{% endif %}</div><div class="web90-project-copy"><p>{{ project.type }}</p><h3>{{ project.name }}</h3><p>{{ project.description }}</p><small>{{ project.detail }}</small>{% if project.url %}<a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">Visit the website <span class="sr-only">for {{ project.name }} (opens in a new tab)</span><span aria-hidden="true"> ↗</span></a>{% endif %}</div></article>
+      {% endfor %}
+    </div></section>
+
+    <section class="web90-next"><p>Want to know the person behind these projects?</p><a href="/about/">Read About <span aria-hidden="true">→</span></a><a href="/cv/">Explore my CV <span aria-hidden="true">→</span></a></section>
+  </main>
+  <footer class="web90-footer"><span>© 2026 Riccardo D'Angelo</span><a href="/">Compare the three designs</a></footer>
+</div>

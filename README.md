@@ -27,3 +27,5 @@ npm run dev
 `npm run build` generates the site in `_site/`. `npm run test:visual` builds it and runs the Playwright checks at desktop and mobile sizes. After an intentional visual change, update the screenshots with `npm run test:visual -- --update-snapshots`.
 
 Search indexing is paused while the site is in progress. Before launch, remove the `noindex` meta tag in `src/_includes/base.njk` and the `X-Robots-Tag` rule in `netlify.toml`.
+
+Follow the [search indexing launch procedure](docs/operations/search-indexing.md) when the content is ready.

@@ -26,3 +26,4 @@ Light Terminal è la direzione di lavoro corrente su `/`, `/terminal/`, `/about/
 - Dopo modifiche al sito, esegui `npm run build`.
 - Dopo modifiche visive alle homepage, aggiorna le anteprime in `docs/design/previews/` e controlla desktop e mobile.
 - Se la modifica visiva è intenzionale, aggiorna le snapshot con `npm run test:visual -- --update-snapshots` e ricontrolla le immagini generate.
+- Quando l'autore chiede di rendere il sito indicizzabile, segui `docs/operations/search-indexing.md` e verifica il risultato sul dominio di produzione dopo il deploy.

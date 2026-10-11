@@ -8,7 +8,7 @@
 
 Clienti e recruiter devono capire subito chi è Riccardo e quali tre ambiti copre. Il percorso principale porta dalla breve presentazione alle pagine **About** e **CV**, quindi ai **Contatti**. Allenaria e RD Personal Training sono visibili nella homepage come progetti, ma non interrompono quel percorso. RD Personal Training va presentato prima come attività di Riccardo nell'insegnamento e nel personal training; il sito che ha realizzato è un fatto secondario.
 
-Le tre prove usano gli stessi contenuti verificati e la stessa struttura di quattro pagine. Cambiano composizione, ritmo e modo in cui il linguaggio rétro organizza la lettura. Il testo di presentazione definitivo e il canale di contatto pubblico restano da approvare.
+Le tre prove usano gli stessi contenuti verificati e la stessa struttura di quattro pagine. Cambiano composizione, ritmo e modo in cui il linguaggio rétro organizza la lettura. Il testo di presentazione definitivo resta da approvare. GitHub è nel menu; LinkedIn è il primo canale pubblico nella pagina Contatti.
 
 ## Anteprime
 
@@ -107,4 +107,4 @@ $ contact
 
 ## Scelta da fare
 
-La direzione di lavoro corrente è Light Terminal su `/` e `/terminal/`. Le altre varianti restano disponibili a `/readme/` e `/web90/`; `/designs/` le presenta affiancate. Le pagine About, CV e Contatti sono bozze comuni per mantenere funzionante la navigazione durante il confronto.
+La direzione di lavoro corrente è Light Terminal su `/` e `/terminal/`. About, CV e Contatti condividono ora la stessa cornice, la palette, la tipografia e il menu della homepage; il CV organizza le informazioni in sezioni e righe leggibili. Le altre varianti restano disponibili a `/readme/` e `/web90/`; `/designs/` le presenta affiancate.

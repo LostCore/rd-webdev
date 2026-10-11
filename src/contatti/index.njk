@@ -1,9 +1,19 @@
 ---
 layout: base.njk
 title: Contact
-theme: chooser
+theme: terminal
+pageKey: contact
 permalink: /contatti/index.html
 ---
-<div class="info-page"><header class="info-header"><a href="/">RD / LAB</a><nav aria-label="Navigation"><a href="/">Homepage</a><a href="/about/">About</a><a href="/cv/">CV</a></nav></header>
-<main id="main"><h1>Contact</h1><p>Public contact channels have yet to be chosen. This page completes the navigation without exposing the contact details in my private CV.</p><p>For now, you can read my <a href="/cv/">CV</a> or explore the <a href="/designs/">homepage concepts</a>.</p></main>
-<footer>Shared draft page · Public contact details to be decided.</footer></div>
+<div class="terminal-page terminal-info">
+  {% include "terminal-header.njk" %}
+  <main id="main" class="info-main">
+    <section class="info-intro" aria-labelledby="contact-title">
+      <h1 id="contact-title" class="info-title"><span aria-hidden="true">$</span> Contact</h1>
+      <p>Connect with me on LinkedIn. Other public contact options are still being decided.</p>
+      <a class="info-contact-link" href="{{ profile.linkedin }}" target="_blank" rel="noopener noreferrer">Open LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+    </section>
+  </main>
+  <nav class="terminal-next" aria-label="Continue reading"><p><span aria-hidden="true">$</span> next</p><a href="/about/">/about <span aria-hidden="true">→</span></a><a href="/cv/">/cv <span aria-hidden="true">→</span></a></nav>
+  {% include "terminal-footer.njk" %}
+</div>

@@ -1,5 +1,5 @@
 <div class="terminal-page">
-  <header class="terminal-header"><a class="terminal-mark" href="/">rd<span>@</span>home<span>:~</span></a><nav aria-label="Main navigation"><a href="/about/">about</a><a href="/cv/">cv</a><a href="#projects">projects</a><a href="/contatti/">contact</a></nav><span class="terminal-signal"><i aria-hidden="true"></i> ONLINE</span></header>
+  {% include "terminal-header.njk" %}
   <main id="main">
     <section class="terminal-hero" aria-labelledby="terminal-title"><p class="terminal-line"><span aria-hidden="true">$</span> whoami</p><h1 id="terminal-title">RICCARDO<br>D'ANGELO<span class="terminal-cursor" aria-hidden="true">_</span></h1><p class="terminal-roles">{{ profile.roles | join(' / ') }}</p><p class="terminal-intro">{{ profile.intro }}</p><div class="terminal-actions"><a href="/about/"><span aria-hidden="true">&gt;</span> open about</a><a href="/cv/"><span aria-hidden="true">&gt;</span> open cv</a></div></section>
     <section id="projects" class="terminal-projects" aria-labelledby="terminal-projects-title"><div class="terminal-prompt"><span aria-hidden="true">$</span> ls projects <span class="terminal-count">2 items</span></div><h2 id="terminal-projects-title" class="sr-only">Projects</h2>
@@ -9,5 +9,5 @@
     </section>
     <section class="terminal-next"><p><span aria-hidden="true">$</span> next</p><a href="/about/">/about <span aria-hidden="true">→</span></a><a href="/cv/">/cv <span aria-hidden="true">→</span></a><a href="/contatti/">/contact <span aria-hidden="true">→</span></a></section>
   </main>
-  <footer class="terminal-footer"><span>© 2026 Riccardo D'Angelo</span><a href="/designs/">[ compare designs ]</a></footer>
+  {% include "terminal-footer.njk" %}
 </div>

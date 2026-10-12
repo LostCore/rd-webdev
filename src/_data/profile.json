@@ -2,22 +2,22 @@
   "name": "Riccardo D'Angelo",
   "github": "https://github.com/LostCore",
   "linkedin": "https://www.linkedin.com/in/rdangelo86",
-  "roles": ["Full Stack Web Developer", "Systems Engineer", "AI Engineer"],
-  "intro": "I design web applications and cloud services, maintain infrastructure and technical documentation, and work on AI system orchestration.",
+  "roles": ["Full Stack Web Developer", "Systems & AI Engineer", "Coach"],
+  "intro": "I design, build, and maintain web applications and cloud services. In this AI era I'm specialized in agentic integration across business processes, software development, and DevOps.",
   "projects": [
     {
       "id": "allenaria",
       "name": "Allenaria",
       "type": "SaaS",
-      "description": "A platform for independent personal trainers.",
-      "detail": "FastAPI · Vite · PostgreSQL · Stripe"
+      "description": "An all-in-one platform for personal trainers to manage clients, workouts, bookings, and payments, with a dedicated client app.",
+      "detail": "FastAPI · Vite · Ionic · Astro"
     },
     {
       "id": "rd-personal-training",
       "name": "RD Personal Training",
       "type": "Personal practice",
-      "description": "My work as a personal trainer and self-defense instructor in Magenta.",
-      "detail": "I also built the website for this practice.",
+      "description": "My business as a personal trainer and self-defense instructor in Italy.",
+      "detail": "",
       "url": "https://difesapersonalemagenta.com/"
     }
   ]

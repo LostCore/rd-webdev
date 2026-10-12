@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "_site/about/index.html"
+        ],
+        "createdAt": "2026-10-12T11:07:04.170Z",
+        "reason": "The outer terminal-page border is intentional; header and main provide the text insets in terminal.css."
+      }
+    ]
+  }
+}

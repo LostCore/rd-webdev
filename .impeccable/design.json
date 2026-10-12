@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-12T11:07:11Z",
+  "title": "Design System: Light Terminal",
+  "extensions": {
+    "breakpoints": [
+      { "name": "editorial", "value": "850px" },
+      { "name": "mobile-header", "value": "700px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Action link",
+      "kind": "button",
+      "refersTo": "action-link",
+      "description": "Primary navigation action in the Light Terminal direction.",
+      "html": "<a class=\"ds-action-link\" href=\"#\">open about</a>",
+      "css": ".ds-action-link{display:inline-flex;padding:.65rem .9rem;border:2px solid #183e48;background:#c5f3e8;color:#183e48;font:1.6rem VT323,monospace;text-decoration:none}.ds-action-link:hover{background:#183e48;color:#fff}.ds-action-link:focus-visible{outline:3px solid #d82e6b;outline-offset:4px}"
+    },
+    {
+      "name": "Navigation link",
+      "kind": "nav",
+      "description": "Shared header navigation text.",
+      "html": "<a class=\"ds-nav-link\" href=\"#\">about</a>",
+      "css": ".ds-nav-link{color:#183e48;font:1.55rem VT323,monospace;text-decoration:none;border-bottom:2px solid transparent}.ds-nav-link:hover{color:#3252c4;border-color:#3252c4}.ds-nav-link:focus-visible{outline:3px solid #d82e6b;outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Light Terminal",
+    "overview": "The current working direction is clear, technical, and personal. Terminal prompts and monospace display text give the site character; generous pale space and readable body type keep the professional story easy to follow. This direction remains exploratory alongside the README and Web90 backups.",
+    "keyCharacteristics": ["Pale green surfaces", "Dark teal text", "Blue section labels", "Pink prompt accents", "Flat outlined controls"],
+    "rules": [],
+    "dos": ["Keep readable body copy in Atkinson and reserve VT323 for display and terminal labels.", "Preserve keyboard focus, clear contrast, and the single-column mobile reading order."],
+    "donts": ["Do not add shadows, rounded cards, or new hues while refining this direction.", "Do not treat this exploratory direction as a final choice over the saved alternatives."]
+  }
+}

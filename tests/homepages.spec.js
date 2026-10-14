@@ -11,7 +11,11 @@ test('HTML source starts with the contact banner', async ({ request }) => {
     expect(source).toContain('Do you have work for me? Get in touch at /contact/');
     expect(source).not.toContain('me@riccardodangelo.com');
     expect(source).not.toContain('mailto:');
-    expect(source).toContain('<meta name="robots" content="noindex">');
+    if (['/terminal/', '/readme/', '/web90/', '/designs/', '/contact/thanks/'].includes(path)) {
+      expect(source).toContain('<meta name="robots" content="noindex">');
+    } else {
+      expect(source).not.toContain('noindex');
+    }
     expect(source.indexOf('Do you have work for me?')).toBeLessThan(source.indexOf('<html'));
   }
 });

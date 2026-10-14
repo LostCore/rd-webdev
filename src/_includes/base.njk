@@ -12,7 +12,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noindex">
+    {% if noindex %}<meta name="robots" content="noindex">{% endif %}
     <meta name="description" content="{{ description or 'Riccardo D’Angelo: Full Stack Web Developer, Systems Engineer and AI Engineer.' }}">
     <title>{{ title }} · Riccardo D'Angelo</title>
     <link rel="stylesheet" href="/assets/base.css">

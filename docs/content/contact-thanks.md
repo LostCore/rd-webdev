@@ -1,6 +1,6 @@
 # Message sent
 
-Thanks for getting in touch.
+Thanks for reaching out. I'll be in touch soon :)
 
 **Action:** Back to contact
 

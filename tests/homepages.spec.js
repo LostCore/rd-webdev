@@ -1,4 +1,5 @@
 const { test, expect } = require('@playwright/test');
+const profile = require('../src/_data/profile.json');
 
 test('HTML source starts with the contact banner', async ({ request }) => {
   for (const path of ['/', '/about/', '/cv/', '/contact/', '/contact/thanks/', '/terminal/', '/readme/', '/web90/', '/designs/']) {
@@ -27,7 +28,7 @@ for (const variant of ['readme', 'web90', 'terminal']) {
 
     await expect(page.locator('html')).toHaveAttribute('lang', 'en');
     await expect(page.getByRole('heading', { level: 1 })).toContainText(/riccardo/i);
-    await expect(page.locator('main')).toContainText('A platform for independent personal trainers.');
+    await expect(page.locator('main')).toContainText(profile.projects[0].description);
     await expect(page.getByRole('heading', { name: 'Allenaria' })).toBeVisible();
     await expect(page.getByRole('heading', { name: 'RD Personal Training' })).toBeVisible();
     await expect(page.locator('nav a[href="/about/"]')).toBeVisible();

@@ -7,7 +7,8 @@ Use one Markdown file per page to write the site's English copy:
 | Home | [home.md](home.md) | `/` and `/terminal/` |
 | About | [about.md](about.md) | `/about/` |
 | CV | [cv.md](cv.md) | `/cv/` |
-| Contact | [contact.md](contact.md) | `/contatti/` |
+| Contact | [contact.md](contact.md) | `/contact/` |
+| Contact confirmation | [contact-thanks.md](contact-thanks.md) | `/contact/thanks/` |
 
 Edit the English copy directly under each page heading. `## Editorial notes` holds working questions and is not published.
 

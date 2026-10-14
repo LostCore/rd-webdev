@@ -4,7 +4,7 @@
 
 Sito personale sviluppato con Eleventy (11ty). Il prodotto e i fatti confermati sono in `PRODUCT.md`. Le proposte visive, i PRD e le reference vivono in `docs/`.
 
-Light Terminal è la direzione di lavoro corrente su `/`, `/terminal/`, `/about/`, `/cv/` e `/contatti/`. Header e footer Terminal sono condivisi negli include; le tre pagine interne usano `terminal.css`. README e Web90 sono backup di design in `docs/design/backups/` e restano navigabili a `/readme/` e `/web90/`; il confronto è su `/designs/`. Mantieni i backup finché l'autore non sceglie una direzione definitiva. I fatti condivisi sono in `src/_data/profile.json`.
+Light Terminal è la direzione di lavoro corrente su `/`, `/terminal/`, `/about/`, `/cv/` e `/contact/`. Header e footer Terminal sono condivisi negli include; le tre pagine interne usano `terminal.css`. README e Web90 sono backup di design in `docs/design/backups/` e restano navigabili a `/readme/` e `/web90/`; il confronto è su `/designs/`. Mantieni i backup finché l'autore non sceglie una direzione definitiva. I fatti condivisi sono in `src/_data/profile.json`.
 
 ## Comandi
 

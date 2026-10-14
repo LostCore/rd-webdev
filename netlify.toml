@@ -2,3 +2,15 @@
   for = "/*"
   [headers.values]
     X-Robots-Tag = "noindex"
+
+[[redirects]]
+  from = "/contatti"
+  to = "/contact/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contatti/*"
+  to = "/contact/:splat"
+  status = 301
+  force = true

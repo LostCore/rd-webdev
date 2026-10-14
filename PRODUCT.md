@@ -15,7 +15,7 @@ Eleventy (11ty), scelto dall'autore del sito per un sito personale statico.
 - Potenziali clienti che vogliono capire il profilo professionale e valutare una collaborazione.
 - Recruiter che vogliono valutare il profilo per una posizione.
 
-I due pubblici hanno pari priorità. La homepage deve favorire il percorso presentazione → profilo e CV → contatti. Il tipo di opportunità cercate è ancora da decidere; LinkedIn è visibile nella pagina Contatti e l'email compare nel sorgente HTML.
+I due pubblici hanno pari priorità. La homepage deve favorire il percorso presentazione → profilo e CV → contatti. Il tipo di opportunità cercate è ancora da decidere; LinkedIn è visibile nella pagina Contatti; l’email diretta viene rivelata dopo un clic. La pagina offre anche un semplice modulo Netlify Forms. Il commento HTML condiviso rimanda alla pagina Contatti senza pubblicare l’indirizzo.
 
 ## Product Purpose
 
@@ -58,7 +58,7 @@ L'autore ha confermato due [progetti per la homepage](docs/references/progetti.m
 
 L'autore ha precisato che Full Stack Web Developer e Systems Engineer sono i due pilastri del profilo. L'approccio AI-first descrive il modo in cui lavora oggi, sostenuto dalle competenze già maturate; mentoring e coaching rivolti a professionisti IT fanno parte del profilo da comunicare. La formulazione pubblica e il peso di questi elementi nelle singole pagine restano da definire.
 
-L'autore ha fornito il profilo [GitHub](https://github.com/LostCore) per il menu del sito e il profilo [LinkedIn](https://www.linkedin.com/in/rdangelo86) per la pagina Contatti. Ha autorizzato l'email `riccardodangelo@outlook.com` nel messaggio ASCII in cima al sorgente HTML, con la frase esatta «Do you have work for me? Contact me at riccardodangelo@outlook.com». La sua presenza visibile nella pagina Contact resta da decidere. Il CV contiene altri recapiti personali, che non sono autorizzati alla pubblicazione. Non sono stati forniti casi studio, risultati misurabili o immagini personali separati dal CV. Non creare prove fittizie per riempire il sito.
+L'autore ha fornito il profilo [GitHub](https://github.com/LostCore) per il menu del sito e il profilo [LinkedIn](https://www.linkedin.com/in/rdangelo86) per la pagina Contatti. Il 14 ottobre 2026 ha autorizzato `me@riccardodangelo.com` come indirizzo pubblico nella pagina Contatti, destinazione delle notifiche Netlify Forms e sostituto dell’email Outlook nel commento HTML condiviso. Successivamente, per limitare la raccolta automatica più semplice, ha scelto di mostrare l’indirizzo e il link mailto solo dopo un clic su «Show email», con una codifica reversibile nel sorgente. Il commento HTML condiviso ora contiene «Do you have work for me? Get in touch at /contact/», senza email. Senza JavaScript rimangono disponibili modulo e LinkedIn. Questa misura non garantisce protezione dallo spam. Il modulo contiene nome, email e messaggio obbligatori; l’email diretta ha priorità, seguita da LinkedIn e dal modulo. Il CV contiene altri recapiti personali, che non sono autorizzati alla pubblicazione. Non sono stati forniti casi studio, risultati misurabili o immagini personali separati dal CV. Non creare prove fittizie per riempire il sito.
 
 ## Product Principles
 
